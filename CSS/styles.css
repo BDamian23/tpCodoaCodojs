@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*Estilos Generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/*<----HEADER---->*/
+
+.header {
+    background-color: #343a40;
+}
+
+.menu li .disabled{
+    color: #999;
+}
+
+.menu li:last-child a{
+    color: #97c93e;
+}
+
+.menu li:last-child a:hover {
+    color: #c8f876;
+}
+
+/*<-----MAIN----->*/
+
+/*--Cards--*/
+.card {
+    margin: 1em;
+}
+
+.bg-0{
+    background-color: #0d81fd !important; 
+}
+
+.bg-1{
+    background-color: #51b9c9 !important;
+}
+
+.bg-2{
+    background-color: #ffc107 !important;
+}
+
+/*--Venta--*/
+
+.textos{
+    text-align: center;
+}
+
+.textos p:last-child{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.total{
+    background-color: #cce5ff;
+    height: 2.5em;
+    border-radius: 5px;
+}
+
+.total p{
+    margin: 10px;
+}
+
+.buttons button{
+    background-color: #97c93e;
+    color: #fff;
+}
+
+.buttons button:hover{
+    background-color: #c8f876;
+}
+
+/*<-----FOOTER------>*/
+
+.footer{
+    background-color: #263c4a;
+    color: #fff;
+    margin-top: 1em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.lista{
+    list-style: none;
+}
+
+.lista li{
+    margin-top: 15px;
+}
+
+.lista li a{
+    padding: 10px;
+}
+
+.lista li:hover{
+    color: #c8f876;
+}
+
+/*--Media Queries footer--*/
+
+@media screen and (max-width:450px){
+    .lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Estilos de enviado.html */
+
+.body {
+    overflow: hidden;
+}
+
+.enviado {
+    height: 80vh;
+}
