@@ -76,7 +76,7 @@ const submit = (e) => {
     }
     const values = Object.values(verified)
     const submitAccepted = values.every(value => value)
-    submitAccepted ? location.href = '/enviado.html' : alert("Necesitas completar todos los campos correctamente")
+    submitAccepted ? location.href = './enviado.html' : alert("Necesitas completar todos los campos correctamente")
 }
 
 const resetCategory = () => {
